@@ -1,0 +1,6 @@
+customtkinter
+psutil
+py-cpuinfo
+WMI
+fpdf2
+Pillow
