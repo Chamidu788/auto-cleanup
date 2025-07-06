@@ -19,7 +19,7 @@ def resource_path(relative_path):
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
 
-# --- නියතයන් (Constants) ---
+
 DARK_GRAY = "#242424"
 MEDIUM_GRAY = "#2b2b2b"
 LIGHT_GRAY = "#323232"
@@ -147,7 +147,7 @@ class App(ctk.CTk):
         title = ctk.CTkLabel(title_frame, text="System Optimizations", font=("Roboto", 18, "bold"), text_color=ACCENT_COLOR)
         title.pack(side="left")
 
-        # ගැටළුව ඇතිකළ "Manage Startup Programs" මෙතනින් ඉවත් කර ඇත.
+        
         self.optimizations = {
             "Clean Temporary Files": system_utils.clean_temp_files,
             "Clear Windows Update Cache": system_utils.clean_windows_update_cache,

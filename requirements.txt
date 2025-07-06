@@ -4,3 +4,4 @@ py-cpuinfo
 WMI
 fpdf2
 Pillow
+winshell
